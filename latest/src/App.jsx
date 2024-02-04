@@ -10,7 +10,7 @@ function App() {
   const[transactions, setTransactions]= useState([])
   const[search,setSearch]=useState("")
   useEffect(() => {
-    fetch("http://localhost:8001/transactions?q=" + search)
+    fetch("http://localhost:8001/transactions" + search)
       .then((response) => response.json())
       .then((transaction) => setTransactions(transaction))
       console.log({transactions})
