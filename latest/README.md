@@ -1,8 +1,26 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Bank of Flatiron - Transaction App
 
-Currently, two official plugins are available:
+### Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a simple React application for managing transactions using Vite as the build tool. It fetches transaction data from a local server, allows users to filter transactions, and provides a form to add new transactions.
+
+### Prerequisites
+
+Node.js (v12 or higher)
+npm (Node Package Manager) or yarn
+
+### Getting Started
+
+Clone the repository:
+Navigate to the project directory:
+Install dependencies:
+Start the development server:
+The application should be running at http://localhost:5174.
+
+### Features
+
+Fetches transactions from a local server.
+Allows filtering transactions based on a search query.
+Provides a form to add new transactions.
